@@ -4,8 +4,9 @@ spring:
 management:
   endpoints:
     web:
+      base-path: "/joel-actuator"
       exposure:
-        include: "*"  
+        include: "*"
   endpoint:
     health:
       show-details: always
